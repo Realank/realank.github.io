@@ -15,18 +15,18 @@ nav {
     display: inline-block;
     margin: 5px 1px 0 0;
     line-height: 1em;
-
+    text-shadow: 5px 5px 5px #FF0000;
     a {
       display: block;
       position: relative;
       @extend .btn;
       border-color: #FFF;
       color: #FFF;
-      opacity: .8;
+      opacity: .9;
 
       &:hover {
-        color: #FFF;
-        border-color: #FFF;
+        color: #AAA;
+        border-color: #AAA;
         opacity: 1;
       }
 
